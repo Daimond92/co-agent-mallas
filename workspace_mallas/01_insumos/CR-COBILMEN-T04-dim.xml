@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported at 19-05-2025 09:34:59-->
+<DEFTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Folder.xsd">
+    <FOLDER DATACENTER="CTM_DATIOPROD" VERSION="919" PLATFORM="UNIX" FOLDER_NAME="CR-COBILMEN-T04" MODIFIED="False" LAST_UPLOAD="20250517085413UTC" FOLDER_ORDER_METHOD="SYSTEM" REAL_FOLDER_ID="24790" TYPE="1" ENFORCE_VALIDATION="N">
+    </FOLDER>
+</DEFTABLE>
