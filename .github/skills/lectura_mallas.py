@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument("--out", required=True, help="Ruta de salida para el archivo consolidado")
     parser.add_argument("--jobs", nargs="*", help="Lista de JOBNAMEs específicos a extraer (opcional)")
     
-    args = parser.add_argument()
+    args = parser.parse_args()
     
     success = extract_and_inject_jobs(args.dev, args.dim, args.out, args.jobs)
     if not success:
