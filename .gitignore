@@ -1,0 +1,22 @@
+# ---------------------------------------------------
+# Ignorar archivos de datos y mallas (XML, MD, etc.)
+# ---------------------------------------------------
+
+# Ignorar archivos en la carpeta de insumos
+workspace_mallas/01_insumos/*
+!workspace_mallas/01_insumos/.gitkeep
+
+# Ignorar archivos en la mesa de trabajo temporal
+workspace_mallas/02_temporal/*
+!workspace_mallas/02_temporal/.gitkeep
+
+# Ignorar mallas finales e informes en producción
+workspace_mallas/03_produccion/*
+!workspace_mallas/03_produccion/.gitkeep
+
+# ---------------------------------------------------
+# Archivos de sistema y caché de Python (Opcional pero recomendado)
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+.DS_Store
